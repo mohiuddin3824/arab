@@ -1,0 +1,90 @@
+/*index page*/
+@media (max-width: 1200px) {
+    .manu_area ul li {padding: 8px 5px;}
+    .manu_area ul li a {font-size: 17px;}
+    .mobile_logo{display: none;}
+
+}
+@media (max-width: 992px) {
+    .manu_area ul li a {font-size: 16px;}
+    .search_icon {margin-top: 6px;}
+
+    
+}
+@media (max-width: 909px) {
+
+    .manu_area ul li a {font-size: 13px;}
+
+}
+@media (max-width: 766px) {
+    .mobile_bar, .mobile_logo, .mobile_manu {display: block;}
+    .top_header {display: none;}
+    .manu_area {display: none;}
+    .header_ripple {display: none;}
+    .mobile_logo Img {
+        width: 100%;
+        padding-top: 3px;
+    }
+    .mobile_logo {
+        width: 70%;
+        float: left;
+    }
+    .mobile_bar span svg {
+        font-size: 30px;
+        color: #fff;
+    }
+    .mobile_bar {
+        width: 15%;
+        float: left;
+        padding: 7px 0;
+    }
+    .mobile_bar span:hover {
+        cursor: pointer;
+    }
+
+    .mobile_manu {
+        position: fixed;
+        background: white;
+        width: 100%;
+        left: 0;
+        z-index: 9999;
+        top: 0;
+        height: 100%;
+        visibility: hidden;
+        overflow: auto;
+        animation: fadeInDown 800ms;
+    }
+    .mobile_manu ul {padding: 15px 2rem;}
+    .mobile_manu ul li {
+        width: 50%;
+        float: left;
+        text-align: left;
+        border-bottom: 1px solid #00000024;
+        margin: 3px 0;
+        padding: 5px 0;
+    }
+    .mobile_manu ul li a {color: black; font-size: 18px;}
+    
+    .mobile_manu_top {
+        background: #076c47;
+        padding: 11px 20px;
+    }
+    .mobile_manu_top svg {
+        color: #fff;
+        font-size: 20px;
+    }
+    .topBar, .header_logo_area {
+        display: none;
+    }
+    .mobile_manu_top i {color: white;font-size: 20px;}
+    .mobile_manu_top > .time_right {float: right; cursor: pointer;}
+    .mobile_open {visibility: visible;}
+
+    .contact_details {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+
+}
